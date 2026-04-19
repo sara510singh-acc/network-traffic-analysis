@@ -178,6 +178,117 @@ python main.py data/fake_attack.pcap --visualize
 * Basic rule-based anomaly detection
 
 
+---
+
+# 🚀 **Recent Improvements (v2 Upgrade)**
+
+This project has been enhanced to improve usability, clarity, and analytical capabilities.
+
+---
+
+## ✨ **UI & Dashboard Enhancements**
+
+* Added structured **sidebar navigation** for better user experience
+* Organized dashboard into clear sections:
+
+  * Overview
+  * Traffic Analysis
+  * AI Insights
+* Improved layout for better readability and interaction
+
+---
+
+## 📊 **Enhanced Visualizations**
+
+* Integrated more **interactive charts** using Plotly
+* Improved:
+
+  * Protocol distribution visualization
+  * IP communication graphs
+  * Port activity insights
+* Added better data presentation for faster interpretation
+
+---
+
+## 🤖 **Improved Risk Scoring System**
+
+* Refined rule-based **risk scoring logic**
+
+* Risk now calculated based on:
+
+  * Unusual port usage
+  * High-frequency packet activity
+  * Suspicious IP behavior
+
+* Added clear output:
+
+  * **Risk Score (0–100)**
+  * **Threat Level (Low / Medium / High)**
+  * **Reason for classification**
+
+---
+
+## 💡 **AI-Based Insight Improvements**
+
+* Enhanced explanation system for detected anomalies
+* System now provides **human-readable insights**, such as:
+
+  * Possible port scanning
+  * Unusual traffic spikes
+  * Suspicious communication patterns
+
+---
+
+## 📁 **Sample Data & Testing**
+
+* Added sample PCAP (`fake_attack.pcap`) for testing and demonstration
+* Improved reproducibility of results
+* Enables quick project evaluation without external data
+
+---
+
+## 📸 **Documentation Improvements**
+
+* Improved project documentation structure
+* Added clearer explanations of features and workflow
+* Prepared for inclusion of:
+
+  * Screenshots
+  * Demo visuals
+
+---
+
+## ⚠️ **Note on Real-Time Detection**
+
+This project currently focuses on **offline PCAP-based analysis**.
+
+* Designed for:
+
+  * Network traffic investigation
+  * Post-event analysis
+  * Anomaly detection
+
+🔮 Real-time detection is planned as a future enhancement.
+
+---
+
+## 🔄 **Project Evolution**
+
+**Version 1:**
+
+* Basic PCAP analysis
+* Static visualizations
+* Initial rule-based detection
+
+**Version 2 (Current):**
+
+* Improved UI/UX
+* Enhanced visualization
+* Refined risk scoring
+* Better AI insights and explanations
+
+---
+
 
 #  **Future Enhancements**
 
